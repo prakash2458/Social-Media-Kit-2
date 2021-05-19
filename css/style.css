@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins-Regular";
+  background: #0a272c;
+  color: #fff;
+  /* position: relative; */
+}
+.main-content {
+  position: relative;
+  transform: translateY(30%);
+}
+.main-content h1,
+.main-content p {
+  padding: 0 15rem;
+}
+.main-content h1 {
+  font-size: 50px;
+  line-height: 1.4;
+}
+.flex-1 {
+  position: relative;
+}
+.flex-2 {
+  position: relative;
+}
+.yellow {
+  background: #ddad58;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  transform: translateX(150%);
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gray {
+  background: #b5b5b5;
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 70%;
+  transform: translateX(50%);
+  display: flex;
+  align-items: flex-end;
+}
+.gray h1 {
+  padding: 0 2rem;
+}
+.flex {
+  display: flex;
+}
